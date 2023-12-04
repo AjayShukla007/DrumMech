@@ -1,0 +1,27 @@
+#drum-machine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+  /* grid-template-rows: 5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr 1fr; */
+  border: 1px solid darkcyan;
+  flex-wrap: wrap;
+  
+}
+#display{
+  background: grey;
+  /* flex: 5; */
+  height: 10em;
+  flex-shrink: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drum-pad{
+  width: 33.3%;
+  height: 33.3%;
+  /* flex: 1; */
+  flex-shrink: 0;
+}
